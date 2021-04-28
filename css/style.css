@@ -195,6 +195,15 @@ label span {
   width: auto;
 }
 
+#cart tr  {
+  border-bottom: 1px solid #062f4f;
+  border-collapse: none;
+  color: #777;
+  padding: .5em 1em;
+  text-align: center;
+  width: auto;
+}
+
 #cart tr td:last-child,
 #cart tr th:last-child {
   text-align: left;
