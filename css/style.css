@@ -195,6 +195,8 @@ label span {
   width: auto;
 }
 
+
+
 #cart tr  {
   border-bottom: 1px solid #062f4f;
   border-collapse: none;
@@ -203,6 +205,7 @@ label span {
   text-align: center;
   width: auto;
 }
+
 
 #cart tr td:last-child,
 #cart tr th:last-child {
@@ -213,4 +216,5 @@ label span {
 #cart tr td:first-child {
   color: red;
   cursor: pointer;
+
 
