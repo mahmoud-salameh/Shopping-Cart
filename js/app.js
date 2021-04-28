@@ -59,4 +59,4 @@ function generateCatalog() {
 }
 
 // Initialize the app by creating the big list of products with images and names
-generateCatalog();
+
