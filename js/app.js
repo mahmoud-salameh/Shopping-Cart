@@ -4,14 +4,14 @@
 const Cart = function(items) {
   // this.items is an array of CartItem instances.
   this.items = items;
-  // console.log (this.items);
+
 };
 
 Cart.prototype.addItem = function(product, quantity) {
   // TODO: Fill in this instance method to create a new CartItem and add it to this.items
   let newItem = new CartItem(product, quantity);
   this.items.push(newItem);
-  // console.log (newItem);
+
 };
 
 Cart.prototype.saveToLocalStorage = function() {
@@ -61,4 +61,3 @@ function generateCatalog() {
 }
 
 // Initialize the app by creating the big list of products with images and names
-generateCatalog();
